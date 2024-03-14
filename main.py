@@ -1,3 +1,4 @@
+# program to calculate basic arithmetic operations using funtion
 def calculation(x, y, operator):
 
     try:
@@ -24,7 +25,7 @@ num1 = float(input("please enter a number : "))
 num2 = float(input("please enter a number : "))
 
 ops = ['+', '-', 'x', '/']
-
+# implementing defensive programming using while loop to ensure user entering correct operator
 while True:
     operator = input("Enter the any one math symbol (+,-,x,/) : ")
 
